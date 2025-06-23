@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+.nav{
+  background-color: gray;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color0.3s ease;
+}
+
+.nav a:hover{
+  background-color: #575757;
+}
+
+.nav-toggle {
+  display: none;
+}
+ 
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

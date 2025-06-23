@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+.nav{
+  background-color: gray;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+  font-size: 2rem;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color0.3s ease;
+}
+
+.nav a:hover{
+  background-color: #575757;
+}
+
+.nav-toggle {
+  display: none;
+}
+ 
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
+.profile{
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+    height: 200px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.slide-container{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    background-color: #575757;
+    border-radius: 15px;
+}
+
+.slide{
+    position: absolute;
+    animation: moveslide 2.5s linear infinite;
+}
+
+@keyframes moveslide{
+0%{
+    left: 0%;
+}
+50%{
+    left: calc(100% - 200px);
+}
+100%{
+    left: 0%;
+    }
+}
+
+.self-introduction1{
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.self-introduction h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.self-introduction h1{
+    font-size: 4rem;
+    align-items: center;
+}
+
+

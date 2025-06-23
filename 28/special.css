@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: gray;
+  color: white;
+  overflow: hidden;
+}
+ 
+header {
+  text-align: center;
+  padding: 30px 15px;
+}
+ 
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+ 
+h1 .black {
+  color: white;
+  font-weight: bold;
+}
+ 
+h1 .blue {
+  color: #00b4ff;
+  font-weight: 300;
+}
+ 
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+ 
+nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+ 
+nav li a:hover {
+  color: #00b4ff;
+}
+
+.bak{
+    max-width: 100%;
+    max-height: 30%;
+    border-radius: 15px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    margin-right: 790px;
+    margin-left: 790px;
+    margin-bottom: 30px;
+  
+}
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+@keyframes bgColorChange {
+  0%   { background-color: #1e3c72; }
+  25%  { background-color: #2a5298; }
+  50%  { background-color: #7b4397; }
+  75%  { background-color: #dc2430; }
+  100% { background-color: #1e3c72; }
+}
+ 
+.animated-background {
+  animation: bgColorChange 10s infinite;
+  transition: background-color 0.2s ease;
+}
+
+ 
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 820px;
+  top: 270px;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+div{
+  background-color: rgb(55, 53, 53);
+  height: 4%;
+  border-radius: 40px;
+}
+
+.slide{
+    position: absolute;
+    animation: moveslide 1.5s linear infinite;
+}
+
+@keyframes moveslide{
+0%{
+    top: 0%;
+}
+50%{
+    top: calc(100% - 200px);
+}
+100%{
+    top: 0%;
+    }
+}
+
+.slidetop-container{
+  position: absolute;
+  margin-left: 1900px;
+    animation: moveslidetop 1.5s linear infinite;
+}
+
+@keyframes moveslidetop{
+0%{
+    bottom: 0%;
+}
+50%{
+    bottom: calc(100% - 200px);
+}
+100%{
+    bottom: 0%;
+    }
+  }
+
+ 

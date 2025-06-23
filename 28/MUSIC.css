@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.music-player {
+  width: 95%;
+  background: #f4f4f4;
+  border-radius: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: gray;
+  margin:20px;
+}
+ 
+.album-cover img {
+  width: 40%;
+  border-radius: 15px;
+}
+ 
+.track-info h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #f4f4f4;
+}
+ 
+.track-info p {
+  color: #f4f4f4;
+  margin: 0;
+}
+ 
+.progress-bar {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  margin: 15px 0;
+  position: relative;
+}
+ 
+.progress-bar .current {
+  width: 18%;
+  height: 100%;
+  background: #ff66cc;
+  border-radius: 3px;
+}
+ 
+.controls button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+ 
+.lyrics{
+  display:  -webkit-box;
+  -webkit-line-clamp: 11;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow: auto;
+  line-height: 1.5;
+  max-width: 440px;
+  max-height: 100%;
+  min-height: 150px;
+  background-color: gray;
+  color: white;
+  float: right ;
+  margin-right: 20px;
+  border-radius: 15px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.makaroni{
+  width: 60%;
+  height: 50%;
+  background: #f4f4f4;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #808080;
+  margin-top: 20px;
+}
+
+.makaroni img{
+  width: 10%;
+  border-radius: 15px;
+  width: 40%;
+  height: 40%;
+}
+
+.makaroniennpitu{
+  display: flex;
+  justify-content: space-between;
+  width: 61%;
+  height: 40%;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.makaroniennpitu2{
+  display: flex;
+  justify-content: space-between;
+  width: 61%;
+  height: 40%;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.nav{
+  background-color: gray;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color0.3s ease;
+}
+
+.nav a:hover{
+  background-color: #575757;
+}
+
+.nav-toggle {
+  display: none;
+}
