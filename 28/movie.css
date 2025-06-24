@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: url(image/スクリーンショット\ 2025-06-24\ 142629.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.haikei{
+    background-color: gray;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+ 
+nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.98rem;
+  transition: color 0.3s;
+}
+ 
+nav li a:hover {
+  color: #00b4ff;
+}
+
+.a{
+    background-color:#a4a8ab;
+    margin-right: 77%;
+    border-radius: 40px;
+}
+
+
+.a h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h1{
+    color: aliceblue;
+}
+
+
+.max{
+    caret-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totoro{
+    width: 30%;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.totoro img{
+    width: 100%;
+    border-radius: 40px;
+    
+}
