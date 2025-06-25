@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: gray;
-  color: white;
+  background-image: url(image/スクリーンショット\ 2025-06-25\ 030841.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav ul {
@@ -12,6 +13,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
+  background-color: khaki;
 }
  
 nav li a {
@@ -24,4 +26,70 @@ nav li a {
 nav li a:hover {
   color: #00b4ff;
 }
+
+
+.warabi-mochi {
+  display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-right: 600px;
+  border-radius: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.warabi-mochi img {
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+ 
+ .info h1 {
+  font-family: 'serif';
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  caret-color: white;
+}
+ 
+ .info p {
+  font-size: 1em;
+  color: white;
+  line-height: 1.5;
+}
+
+.omuretu{
+   display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 600px;
+  border-radius: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.omuretu img{
+   width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.hannba-gu{
+   display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 600px;
+  border-radius: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hannba-gu img{
+   width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+ 
  

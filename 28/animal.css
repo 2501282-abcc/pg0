@@ -1,7 +1,9 @@
-body{
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: gainsboro;
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: url(image/inu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .nav{
@@ -45,4 +47,68 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.animals{
+  display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-right: 600px;
+  border-radius: 800px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.animals img {
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+ 
+ .info h1 {
+  font-family: 'serif';
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  caret-color: white;
+}
+ 
+ .info p {
+  font-size: 1em;
+  color: white;
+  line-height: 1.5;
+}
+
+.hiyoko{
+  display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-left: 600px;
+  border-radius: 800px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pen{
+  display: flex;
+  align-items: center;
+  background-color: dimgray;
+  padding: 20px;
+  margin-left: 600px;
+  border-radius: 800px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pen img{
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.hiyoko img{
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 20px;
 }
